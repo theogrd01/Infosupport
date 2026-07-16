@@ -1,0 +1,10 @@
+^C:\USERS\INFOSTAGE3\DESKTOP\COURS\INFOTOOLS\SYSINFO\CMAKE\CMAKEFILES\7E69FAA962D63B73C48C94190D4F4200\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/infostage3/Desktop/cours/infotools/SysInfo -BC:/Users/infostage3/Desktop/cours/infotools/SysInfo/cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/infostage3/Desktop/cours/infotools/SysInfo/cmake/info-supportHCC.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

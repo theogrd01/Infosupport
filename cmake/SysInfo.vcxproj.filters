@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\CPUInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\OSInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\Uptime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\MemoryInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\DiskInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\DomainInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\system\HardwareInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\include\graphics\TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\network\NetworkInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\src\printer\PrinterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\external\imgui\imgui-master\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\infostage3\Desktop\cours\infotools\SysInfo\SysInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0C18C00F-CE50-3A6D-846E-4069CA1FD8DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
