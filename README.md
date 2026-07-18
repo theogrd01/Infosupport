@@ -2,11 +2,10 @@
 
 ## Description
 
-Cet outil permet de récupérer automatiquement les informations principales d'un poste utilisateur afin de faciliter les échanges avec le service informatique.
+Cet outil permet de récupérer automatiquement les informations principales d'un poste utilisateur afin de faciliter les échanges avec un service informatique.
 
-L'objectif est de remplacer l'ancienne application développée en Python, devenue indisponible et présentant des lenteurs lors de la collecte des informations.
 
-Cette nouvelle version a été développée en **C++** afin d'améliorer :
+Cette  version a été développée en **C++** afin d'améliorer :
 - Les performances de récupération des données
 - Le temps d'affichage des informations
 - La simplicité d'utilisation pour les utilisateurs finaux
@@ -73,7 +72,7 @@ Pour exécuter l'application :
 
 - Windows 10 ou supérieur
 - Droits utilisateur standards suffisants
-- Poste connecté au réseau de l'hopital (recommandé pour récupérer les informations Active Directory)
+- Poste connecté au réseau de l'entreprise(recommandé pour récupérer les informations Active Directory)
 
 
 
@@ -122,7 +121,7 @@ Le fichier est composé de plusieurs sections importantes.
 ```xml
 <Package
     Name=" InfoSupport"
-    Manufacturer="Hopital Colmar, Theo Garde"
+    Manufacturer="nom entreprise, Theo Garde"
     Version="1.0.1"
     UpgradeCode="{db21186f-0c97-4710-b9b4-33bea6f15317}">
 ```
@@ -236,7 +235,7 @@ Les deux logos sont déclarés exactement de la même manière dans le dossier `
 Chaque composant possède un identifiant unique :
 
 ```xml
-Guid="{7bdaeaf0-3450-43d7-b656-5f19ec0a4dc7}"
+Guid="{exemple guid}"
 ```
 
 Les GUID permettent à Windows Installer de savoir quels fichiers sont installés sur le poste.
@@ -280,8 +279,8 @@ payload/
 ├── info-support InfoSupport.exe
 │
 └── assets/
-    ├── logopasteur.ico
-    └── logopasteur.png
+    ├── logoentreprise.ico
+    └── logoentreprise.png
 ```
 
 Avant chaque génération du package MSI, il est indispensable de remplacer l'ancien exécutable par la dernière version compilée.
@@ -345,8 +344,8 @@ Windows Installer remplacera automatiquement l'ancienne version par la nouvelle.
     ├── info-support InfoSupport.exe
     │
     └── assets/
-        ├── logopasteur.ico
-        └── logopasteur.png
+        ├── logoentreprise.ico
+        └── logoentreprise.png
 ```
 
 Le rôle de chaque élément est le suivant :
