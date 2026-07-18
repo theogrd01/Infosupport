@@ -371,12 +371,7 @@ Documentation Windows Installer :
 https://learn.microsoft.com/windows/win32/msi/windows-installer-portal
 
 
-## Recommandations
 
-
-Toutes personne souhaitant modifier ce logiciel doit être en mesure d'avoir au minimum des bases en C++ et connaitre le fonctionnement de WIX 6 pour la création de fichier msi (se reféré à la documentation très complète sur internet).
-
-NE JAMAIS laisser faire à 100% du "vipecoding" et être totalement sûr des changements effectués sur le logiciel.
 ## auteur
 
 - Théo Garde - étudiant à Epitech
