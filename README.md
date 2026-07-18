@@ -208,7 +208,7 @@ Exemple pour l'exécutable :
 
 ```xml
 <Component Id="MainExecutable"
-           Guid="{7bdaeaf0-3450-43d7-b656-5f19ec0a4dc7}">
+           Guid="{guid example}">
 
     <File
         Id="InfoSupportExe"
