@@ -123,7 +123,7 @@ Le fichier est composé de plusieurs sections importantes.
     Name=" InfoSupport"
     Manufacturer="nom entreprise, Theo Garde"
     Version="1.0.1"
-    UpgradeCode="{db21186f-0c97-4710-b9b4-33bea6f15317}">
+    UpgradeCode="{upgradecode}">
 ```
 
 Cette section contient les informations générales du logiciel.
